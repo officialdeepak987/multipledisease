@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./style.css">
+
+    <style>
+        .about-bg{
+            background-image: url("./image/asset\ 54.jpeg");
+            width: 100%;
+            height: 500px;
+        }
+
+        .about{
+            margin: 0 auto;
+            text-align: center;
+    
+        }
+
+        .about-heaading{
+            font-size: 55px;
+            color: #fff;
+            margin-top: 4em;
+        }
+
+        .appointment{
+            width: 100%;
+
+        }
+
+        .container-appointment{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            margin-top: 50px;
+            
+
+        }
+
+        .appoin-img img{
+            width: 80%;
+            height: auto;
+
+        }
+        .appoint-heading{
+            font-size:30px;
+            line-height: 20px;
+            text-align: left;
+            margin-top:30px;
+
+        }
+
+        .appoin-desc{
+            font-size:18px;
+            margin-top:30px;
+
+        }
+
+        .appoin-time-img{
+            width: 110px;
+        }
+
+        @media(max-width:900px){
+            .container-appointment{
+                flex-direction: column;
+            }
+
+        }
+
+
+        .country{
+            width: 100%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+
+        }
+        .country-container{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            align-content: center;
+            margin-top: 50px;
+           
+
+        }
+        @media(max-width:900px){
+            .country-container{
+                flex-direction: column;
+            }
+
+        }
+
+
+        .country-achiment{
+
+        }
+
+        .achiment-heading{
+            font-size:30px;
+            line-height: 20px;
+            text-align: left;
+            margin-top:30px;
+
+        }
+        .achiment-desc{
+            font-size:18px;
+            margin-top:30px;
+
+        }
+
+        .achiment-img img{
+
+            width: 80%;
+            height: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+   
+    <div class="about-bg">
+        <header class="header">
+            <img src="./image/asset 0.png" alt=" logo" class="logo" />
+
+            <nav class="navbar">
+                <ul class="navbar-list">
+                    <li><a class="navbar-link" href="./index.html">Home</a></li>
+                    <li><a class="navbar-link" href="https://web-production-ee24.up.railway.app/"
+                            target="_blank">Multiple Disease</a></li>
+                    <li><a class="navbar-link" href="./blog.html">Blog</a></li>
+                    <li><a class="navbar-link" href="./about.html">About Us</a></li>
+                    <li>
+                        <a class="navbar-link" href="./contact.html" target="_blank">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="mobile-navbar-btn">
+                <ion-icon name="menu-outline" class="mobile-nav-icon"></ion-icon>
+                <ion-icon name="close-outline" class="mobile-nav-icon"></ion-icon>
+            </div>
+        </header>
+       
+
+        <div class="about">
+            <div class="container">
+                <h1 class="about-heaading">About the clinic</h1>
+
+            </div>
+        </div>
+
+    </div>
+        <div class="appointment">
+            <div class="container-appointment">
+                <div class="appoin-img">
+                    <img src="./image/calendar.png" alt="" class="img">
+
+                </div>
+                <div class="appoint-text">
+                    <img src="./image/stopwatch-icon-180x180.png" alt="" class="appoin-time-img">
+                    <h1 class="appoint-heading">
+                        #1 at reliability in terms of appointments
+                    </h1>
+                    <p class="appoin-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultricies, ante et cursus eleifend, est risus commodo mi, eu commodo lacus ipsum quis est. Cras eget elementum augue, in pulvinar erat.
+                    </p>
+                    <button class="primary-btn">Appointment slots</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="country">
+            <div class="country-container">
+                <div class="country-achiment">
+                    <img src="./image/clinika_trophy.png" alt="">
+                    <h2 class="achiment-heading">
+                        Biggest network of clinics in the whole country.
+                    </h2>
+                    <p class="achiment-desc">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac eros quis ante volutpat consectetur. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec felis quam, venenatis nec quam sit.
+                    </p>
+                    <button class="primary-btn">Jump To Testilmonials</button>
+                </div>
+                <div class="achiment-img">
+                    <img src="./image/map.png" alt="">
+                </div>
+            </div>
+        </div>
+
+   
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
